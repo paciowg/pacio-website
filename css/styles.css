@@ -10487,13 +10487,50 @@ section#contact form#contactForm :-ms-input-placeholder {
   fill-rule:evenodd;
 }
 
-.svg-row-2 {
-  margin: 280px 0px 0px 0px;
-}
-
-.text {
-  color: white;
+.svg-col1-row1 {
+  color: black;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  margin: 0px 0px 0px 20px;
+}
+
+.svg-col2-row1 {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: 0px 0px 0px 20px;
+}
+
+.svg-col3-row1 {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: 0px 0px 0px 20px;
+}
+
+.svg-col1-row2 {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: -70px 0px 0px 180px;
+}
+
+.svg-col2-row2 {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: -70px 0px 0px 20px;
+}
+
+.svg-col3-row2 {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: -70px 0px 0px 20px;
 }
