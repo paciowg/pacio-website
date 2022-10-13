@@ -10487,6 +10487,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   fill-rule:evenodd;
 }
 
+.honeycomb-border {
+  fill:black;
+  fill-rule:evenodd;
+}
+
 .honeycomb-big {
   fill:#1084c7;
   fill-rule:evenodd;
