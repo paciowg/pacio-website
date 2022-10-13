@@ -10488,7 +10488,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .honeycomb-big {
-  fill:#16a5f7;
+  fill:#1084c7;
+  fill-rule:evenodd;
+}
+
+.honeycomb-pfe {
+  fill:#42b3f5;
   fill-rule:evenodd;
 }
 
