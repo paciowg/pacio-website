@@ -36,20 +36,38 @@
             </div>
         </nav>
 
+        <!-- Main Re-assessment Timepoints content -->
         <section class="page-section bg-light">
             <div class="container">
-                <div class="text-center" style="padding-top: 20px;padding-bottom: 15px;">
-                    <h2 class="section-heading text-uppercase">Re-Assessment Timepoints Use Case</h2>
+                <div class="text-use-case-title">
+                    <h2 class="section-heading text-uppercase">Re-Assessment Timepoints</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <p>The PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <h4>Introduction</h4>
+                        <p>Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <h4>Background</h4>
+                        <p>Out of hospital care spans longer periods of time than in Acute and Ambulatory settings of care. Where a patient may have a 1 hour check up with their PCP - a Home Health nurse may be seeing that same patient at the same time for months. Within these extended periods of time that make up a Post-Acute admission, there are sub units of time already defined and driven by payer requirements, regulation, or internal processes that organize updates and changes to care being provided. For example - at the start of a Home Health admission, the patient may be coming off of an acute event and have care plans, and other clinical considerations to meet that need; whereas at the end of the admission (several weeks later) the patient may have rehabilitated and the care plan, meds, diagnosis, and other key clinical data points may have changed significantly. Currently there is no FHIR structure to build out these sub-units of a broader home health admission to properly define the progression of care.</p>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 mx-auto text-left">
                         <img id="myImg" src="assets/img/use_case_reassessment_timepoints.png" style="width:100%;">
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
         
-              <!-- Footer-->
+        <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">

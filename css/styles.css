@@ -9663,6 +9663,13 @@ button.bg-dark:focus {
   white-space: nowrap !important;
 }
 
+.text-use-case-title {
+  white-space: nowrap !important;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
