@@ -36,23 +36,41 @@
             </div>
         </nav>
 
+        <!-- Main ADI content -->
         <section class="page-section bg-light">
             <div class="container">
-                <div class="text-center" style="padding-top: 20px;padding-bottom: 15px;">
-                    <h2 class="section-heading text-uppercase">Advance Directives Use Case</h2>
+                <div class="text-use-case-title">
+                    <h2 class="section-heading text-uppercase">Advance Directives</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 mx-auto text-left">
-                        <h4>Placeholder</h4>
-                        <h4>Advance Directives content will go here</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Auctor augue mauris augue neque gravida in fermentum et. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Neque convallis a cras semper auctor. Lacus sed viverra tellus in. Consequat interdum varius sit amet mattis vulputate enim. Malesuada bibendum arcu vitae elementum. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Elit eget gravida cum sociis. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Aliquet porttitor lacus luctus accumsan tortor posuere. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Sit amet mattis vulputate enim.</p>
-                        <p>Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Nec nam aliquam sem et tortor consequat. Lacus laoreet non curabitur gravida. Placerat in egestas erat imperdiet sed euismod nisi porta. Leo vel fringilla est ullamcorper eget nulla facilisi. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Morbi non arcu risus quis varius quam. Nulla facilisi etiam dignissim diam. Adipiscing elit ut aliquam purus sit amet luctus. Nulla pharetra diam sit amet nisl. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. In cursus turpis massa tincidunt dui ut. Felis eget velit aliquet sagittis id consectetur purus ut. Elementum curabitur vitae nunc sed velit.</p>
+                        <p>The Advance Directive Interoperability (ADI) FHIR implementation guide (IG) explains how to represent, exchange, and verify a person’s goals, preferences and priorities for treatments and interventions regarding future medical care.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <h4>Introduction</h4>
+                        <p>This ADI implementation guide (IG) describes how to use existing HL7 FHIR® standards to create, update, share, verify, and exchange information about an individual's advance medical goals, preferences, and priorities for care in the event the individual is unable to communicate this information to medical teams for himself or herself. Advance directives in this IG includes person-authored advance directives and personal advance care plans, and patient consent information attesting to a patient authorizing a person or persons to serve as a healthcare agent or attesting to permission granted to share advance directive information with others. It also includes practitioner-authored patient instructions (obligation and prohibitions), and practitioner-authored portable medical orders for life sustaining treatments.</p>
+                        <p>Advance directives can be categorized into three types of information. The current version of this guide addresses Type I: Person-Authored Advance Directive Information. Subsequent versions of this guide will address the other two types; Encounter-Centric Instructions and Portable Medical Order for Life-Sustaining Treatment.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <h4>Background</h4>
+                        <p>Advance directive interoperability is a complex area that involves many stakeholders. The HL7 workgroup sponsor for this FHIR IG is Patient Empowerment. HL7 co-sponsor workgroups include Patient Care, Community Based Care and Privacy, and Orders & Observations. As part of PACIO’s main goal in improving care transitions, the Post-Acute Care Interoperability (PACIO) Community has adopted this project as a critical use case. The PACIO Community has a strong interest in the topic of advance directive interoperability with FHIR and will support the community engagement and technical FHIR IG development needed for advance directives interoperability. PACIO is supported by MITRE, CMS, ONC and many other stakeholders (clinical, technical, and industry associations).</p>
+                        <p>FHIR profiles have been developed for several existing FHIR resources to represent advance directive content such as: living will, durable medical power of attorney, personal health goals at end of life, care experience preferences, end-of-life and emergency intervention preferences under certain circumstances, patient instructions (obligation, prohibitions, and consent), and portable medical orders for life sustaining treatments.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-left">
+                        <h4>Patient Story and Data Flow Diagram</h4>
+                        <img id="myImg" src="assets/img/use_case_adi.png" style="width:100%;">
                     </div>
                 </div>
             </div>
         </section>
         
-              <!-- Footer-->
+        <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
